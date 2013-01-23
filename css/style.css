@@ -12,8 +12,17 @@ body {
     font-size: 1em;
     margin:0;
     background: url(../images/bg.bmp);
-    font-family:'Chicago';
+    background-attachment:fixed;
+    font-family:'pixChicago';
     line-height:1.0;
+}
+
+html.lt-ie9 header,
+html.lt-ie9 footer,
+html.lt-ie9 .home,
+html.lt-ie9 .windows
+{
+	display:none;
 }
 
 ::-moz-selection {
@@ -180,8 +189,8 @@ header .content
 header .content ul li
 {
 	float:left;
-	padding:5px 12px 2px 12px;
-	font-size:9pt;
+	padding:6px 12px 5px 12px;
+	font-size:8px;
 }
 
 header .content ul li:hover
@@ -202,7 +211,6 @@ header a.social
 	width:15px;
 	height:14px;
 	margin-left:3px;
-	margin-top:3px;
 }
 
 footer
@@ -223,6 +231,8 @@ footer h6
 	font-size:8pt;
 	margin:0;
 }
+
+footer h6 span { font-family:Arial; }
 
 footer p
 {
@@ -268,9 +278,9 @@ footer.open p, footer.f-open p { background-image: url(../images/icons/footer-do
 .btn
 {
 	display:inline-block;
-	font-size:8pt;
-	line-height:21px;
-	font-family:'Chicago';
+	font-size:8px;
+	line-height:18px;
+	font-family:'pixChicago';
 	color:#000;
 	background:#FFF;
 	height:18px;
@@ -310,7 +320,7 @@ footer.open p, footer.f-open p { background-image: url(../images/icons/footer-do
 	right:0;
 }
 
-.home .notepad h3 { background:#FFF; }
+.home .notepad h3 { background:#FFF; height:auto; }
 
 .home .home-copy
 {
@@ -388,8 +398,8 @@ html.no-js .window
 {
 	margin:0;
 	background:url(../images/ui/window/header-bg.7x11.png) #FFF repeat-x center left;
-	font-size:9pt;
-	line-height:19px;
+	font-size:8px;
+	line-height:16px;
 	height:17px;
 	overflow:hidden;
 	text-align:center;
@@ -464,9 +474,9 @@ html.no-js .window
 	padding-bottom:2px;
 	border-bottom:solid 1px #000;
 	padding:5px 0;
-	font-size:10px;
+	font-size:8px;
 	height:10px;
-	line-height:12px;
+	line-height:8px;
 	text-align:center;
 	background:#FFF;
 	z-index:1;
@@ -596,8 +606,8 @@ html.notepad-moving .notepad p.selectable {
 {
 	margin:0;
 	font-weight:normal;
-	font-size:9pt;
-	line-height:19px;
+	font-size:8px;
+	line-height:17px;
 	height:17px;
 	text-align:center;
 	border-bottom:solid 1px;
@@ -659,7 +669,7 @@ ul.files
 ul.files li
 {
 	float:left;
-	margin:0 10px 10px 10px;
+	margin:0 8px 20px 8px;
 	min-width:90px;
 	max-width:110px;
 	text-align:center;
@@ -669,7 +679,6 @@ ul.files li img
 {
 	display:block;
 	margin:auto;
-	margin-bottom:10px;
 	width:auto;
 	height:90px;
 }
@@ -685,6 +694,7 @@ ul.files li a
 	padding:2px;
 	display:inline;
 	font-family:"Geneva", sans-serif;
+	line-height: 0.5;
 }
 
 ul.files li.selected a
@@ -714,7 +724,7 @@ ul.files li.selected a
 .alert p
 {
 	margin:0 0 20px 10px;
-	font-size:12px;
+	font-size:9px;
 	padding-left:51px;
 	min-height:32px;
 	background:url(../images/icons/alert-bomb.31x32.png) no-repeat top left;
@@ -908,4 +918,14 @@ ul.files li.selected a
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'pixChicago';
+    src: url('chicago.eot');
+    src: url('chicago.eot') format('embedded-opentype'),
+         url('chicago.woff') format('woff'),
+         url('chicago.ttf') format('truetype'),
+         url('chicago.svg#pixChicagoRegular') format('svg');
+}
+
 		
