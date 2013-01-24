@@ -15,6 +15,7 @@ body {
     background-attachment:fixed;
     font-family:'pixChicago';
     line-height:1.0;
+    letter-spacing:1px;
 }
 
 html.lt-ie9 header,
@@ -284,7 +285,7 @@ footer.open p, footer.f-open p { background-image: url(../images/icons/footer-do
 	color:#000;
 	background:#FFF;
 	height:18px;
-	padding:0 8px;
+	padding:0 12px;
 	border:solid 1px #000;
 	-moz-border-radius:3px;
 	-webkit-border-radius:3px;
@@ -675,6 +676,8 @@ ul.files li
 	text-align:center;
 }
 
+#apple-window ul.files li { margin-left: 12px; margin-right: 12px; }
+
 ul.files li img
 {
 	display:block;
@@ -694,7 +697,7 @@ ul.files li a
 	padding:2px;
 	display:inline;
 	font-family:"Geneva", sans-serif;
-	line-height: 0.5;
+	line-height: 0;
 }
 
 ul.files li.selected a
