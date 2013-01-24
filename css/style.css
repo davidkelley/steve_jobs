@@ -231,6 +231,7 @@ footer h6
 	font-weight:normal;
 	font-size:8pt;
 	margin:0;
+	letter-spacing: 0;
 }
 
 footer h6 span { font-family:Arial; }
@@ -243,6 +244,7 @@ footer p
 	padding-left:25px;
 	background:url(../images/icons/footer-up.9x8.png) no-repeat center left;
 	cursor:url(../select.cur), default !important;
+	letter-spacing: 0;
 }
 
 footer .rememberum-copy
@@ -644,6 +646,7 @@ html.notepad-moving .notepad p.selectable {
 	font-size:9pt;
 	line-height:1.6;
 	font-family:"Geneva", sans-serif;
+	letter-spacing: 0;
 }
 
 .notepad p:last-child
@@ -698,6 +701,7 @@ ul.files li a
 	display:inline;
 	font-family:"Geneva", sans-serif;
 	line-height: 0;
+	letter-spacing: 0;
 }
 
 ul.files li.selected a
