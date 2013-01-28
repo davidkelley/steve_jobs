@@ -209,8 +209,8 @@ header a.social
 {
 	display:block;
 	float:right;
-	width:15px;
-	height:14px;
+	width:51px;
+	height:15px;
 	margin-left:3px;
 }
 
@@ -258,18 +258,6 @@ footer .rememberum
 	margin:30px 0 60px 0;
 	background:url(../images/footer-avatar.64x66.png) no-repeat center left;
 	padding-left:84px;
-}
-
-footer p:after
-{
-	content:'';
-	position:absolute;
-	right:0;
-	top:50%;
-	margin-top:-5px;
-	width:8px;
-	height:8px;
-	border:solid 1px #000;
 }
 
 footer .reveal { display:none; }
